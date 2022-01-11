@@ -22,14 +22,14 @@ theme = "terminal"
 
     [languages.en.params.logo]
       logoText = "Alex Dev"
-      logoHomeLink = "/"
+      logoHomeLink = "/about"
 
     [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
       [[languages.en.menu.main]]
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
