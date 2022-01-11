@@ -26,3 +26,15 @@ I'm mainly interested in:
 # Languages
 - Spanish (Native Speaker)
 - English (Proficient)
+
+# Programming languages
+- JavaScript (Intermediate)
+- C/C++ (Beginner)
+- Java (Beginner)
+
+# Social media
+- [Instagram](https://instagram.com/alex_dev_null)
+
+# Contact
+- [Email](mailto:alex@alex-dev.me)
+- [Telegram](t.me/Anthony_EdwardStark)
