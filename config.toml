@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://alex-dev.me/'
 languageCode = 'en-us'
 paginate = 5
 theme = "terminal"
