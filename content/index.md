@@ -37,4 +37,4 @@ I'm mainly interested in:
 
 # Contact
 - [Email](mailto:alex@alex-dev.me)
-- [Telegram](t.me/Anthony_EdwardStark)
+- [Telegram](https://t.me/Anthony_EdwardStark)
