@@ -7,7 +7,6 @@ author = "Alex"
 # Hi there
 
 My name is Alex and I'm a Jr. Web Developer, passionate about technology and learning new things. 
-
 I'm a 21 year old Systems Engineering student doing freelancing jobs while focusing in college studies. 
 
 I'm mainly interested in:
