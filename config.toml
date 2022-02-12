@@ -12,10 +12,10 @@ theme = "terminal"
 
 [languages]
   [languages.en]
-    title = "Alex's Portfolio"
+    title = "Alex"
     subtitle = "A simple, retro theme for Hugo"
     keywords = ""
-    copyright = ""
+    copyright = "Alex"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
