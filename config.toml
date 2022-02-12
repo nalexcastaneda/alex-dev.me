@@ -14,7 +14,7 @@ theme = "terminal"
   [languages.en]
     title = "Alex"
     subtitle = "A simple, retro theme for Hugo"
-    keywords = ""
+    keywords = "web developer"
     copyright = "Alex"
     menuMore = "Show more"
     readMore = "Read more"
