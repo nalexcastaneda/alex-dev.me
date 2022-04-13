@@ -68,12 +68,14 @@
     }
 }
 
-a, a:visited {
+a,
+a:visited {
     text-decoration: underline;
     color: #22A5F1;
 }
 
-.social a,.social a:visited {
+.social a,
+.social a:visited {
     text-decoration: none;
     color: inherit;
 }
@@ -81,6 +83,7 @@ a, a:visited {
 .social {
     margin: 2rem 0;
 }
+
 .social a {
     margin: 1rem 0;
 }
@@ -123,6 +126,7 @@ a, a:visited {
     animation: down 2s infinite;
     cursor: pointer;
 }
+
 @keyframes down {
     0% {
         bottom: 10px;
