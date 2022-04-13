@@ -15,6 +15,12 @@ a:visited {
     color: #22A5F1;
 }
 
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
 .slide {
     font-size: 6.5vmin;
     line-height: 6.6vmin;
@@ -27,6 +33,7 @@ a:visited {
     align-content: center;
     display: flex;
     padding: 3vw 4.5vw;
+    scroll-snap-align: start;
 }
 
 .commands {
@@ -122,7 +129,7 @@ a:visited {
     position: fixed;
     z-index: 99;
     bottom: 4px;
-    right: 10px;
+    right: 30px;
     animation: down 2s infinite;
     cursor: pointer;
 }
