@@ -132,10 +132,9 @@ a:visited {
 
 .arrow {
     color: rgba(255, 255, 255, 0.273);
-    font-size: 30px;
+    font-size: 6.5vmin;
     position: fixed;
     z-index: 99;
-    bottom: -50vw;
     right: 50vw;
     animation: down 2s infinite;
     cursor: pointer;
