@@ -8,54 +8,85 @@
     <title>whoami: alex</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="/images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
 </head>
 
 <body>
+    <div class="arrow"><i class="fa-solid fa-arrow-down"></i></div>
     <div class="slide">
         <div class="commands">
             Welcome to alex-dev.me! <br>
             This page was last updated on Tue Apr 12 2022 <br> <br>
-            * In this page you will find some information about me. <br>
-            * You can skip to any of this parts: <a href="#about">#about</a>, <a href="#other-subdomains">#other-subdomains</a>, <a href="#contact">#contact</a>.
- <br> <br> <br>
+            * In this page you will find information about me. <br>
+            * You can skip to any of these sections: <a href="#about">#about</a>, <a href="#sites">#sites</a>, <a href="#contact">#contact</a>.
+            <br> <br>
             <span class="host">alex@web:$</span> whoami <br>
-            Alex <br>
-
+            <div class="cat">
+                <b>Name:</b> Alex <br>
+                <b>Age:</b> 21 years old <br>
+                <b>Languages: Spanish (Native), English (Proficient).
+            </div>
         </div>
     </div>
     <div id="about" class="slide">
         <div class="commands">
             <span class="host">alex@web:$</span> cat .profile <br>
             <div class="cat">
-                Hi! I'm Alex. <br>
-                <b>Age:</b> 21 years old <br> <br>
-                <b>My interests:</b> <br> <br>
-                <li>- Web Development: Front-End & Backend.</li> <br>
-                <li>- Cloud Computing: AWS, GCP, Azure.</li> <br>
-                <li>- Linux systems administration.</li> <br>
-                <li>- Ethical hacking.</li> <br>
-                <li>- Cisco Networking.</li> <br>
-                <b>Programming languages</b>
-                <li>- JavaScript</li>
-                <li>- C/C++</li>
-                <li>- Java</li>
+                <b>My interests:</b> <br>
+                <ul>
+                    <li>- Web Development: Front-End & Backend.</li>
+                    <li>- Cloud Computing: AWS, GCP, Azure.</li>
+                    <li>- Ethical hacking.</li>
+                    <li>- Cisco Networking.</li>
+                    <li>- Building Android ROMs.</li>
+                </ul>
                 <br>
-                <b>Languages:</b> <br>
-                - Spanish (Native Speaker) <br>
-                - English (Proficient) <br>
+                <b>Programming languages</b>
+                <ul>
+                    <li>- JavaScript</li>
+                    <li>- C/C++</li>
+                    <li>- Java</li>
+                </ul>
+                <br>
             </div>
         </div>
     </div>
-    <div class="slide">
+    <div class="slide" id="sites">
         <div class="commands">
-            <span class="host">alex@web:$</span> cat .contact <br>
-            <div class="cat social">
-                <a class="social-button" href="https://t.me/Anthony_EdwardStark" target="about_blank"><div class="social-button tg"><img
-                            src="https://telegram.org/img/t_logo.svg" alt="telegram"> Telegram</div></a>
-                <a class="social-button" href="mailto:alex@alex-dev.me" target="about_blank"><div class="social-button mail"><img
-                            src="https://freesvg.org/img/Anonymous-aiga-mail.png" alt="mail"> Mail</div></a>
+            <span class="host">alex@web:$</span> cat sites.txt<br>
+            <div class="cat">
+                <ul>
+                    <li>- <a href="https://cloud.alex-dev.me" target="about_blank">Alex's Cloud</a> </li>
+                    <li>- <a href="https://url-bin.herokuapp.com/" target="about_blank">URLBIN</a></li>
+                    <li>- <a href="https://alex-dev.ml" target="about_blank">Test Domain</a> (enter under your own risk)</li>
+                </ul>
             </div>
-            <span class="host last-line">alex@web:$<span id="cursor"></span></span>
+        </div>
+    </div>
+    <div id="contact" class="slide">
+        <div class="commands">
+            <span class="host">alex@web:$</span> ./contact.sh <br>
+            <div class="cat social">
+                <a class="social-button tg" href="https://t.me/Anthony_EdwardStark" target="about_blank">
+                    <img src="https://telegram.org/img/t_logo.svg" alt="Telegram">
+                        Telegram
+                </a>
+                <a class="social-button mail" href="mailto:alex@alex-dev.me" target="about_blank">
+                    <img src="https://freesvg.org/img/Anonymous-aiga-mail.png"
+                            alt="mail"> E-mail
+                </a>
+                <a class="social-button tg" href="https://twitter.com/alex_dev_null" target="about_blank">
+                    <img src="https://seeklogo.com/images/T/twitter-logo-A84FE9258E-seeklogo.com.png" alt="Twitter">
+                    Twitter
+                </a>
+                <a class="social-button ig" href="https://instagram.com/alex_dev_null" target="about_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
+                            alt="Instagram"> Instagram
+                </a>
+                <div class="commands">
+                    <span class="host">alex@web:$</span> Thanks for visiting alex-dev.me :)</span><span id="cursor">&nbsp;</span>
+                </div>
+            </div>
         </div>
     </div>
 </body>
