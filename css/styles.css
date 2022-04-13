@@ -9,6 +9,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #24071b;
+}
+
 a,
 a:visited {
     text-decoration: underline;
@@ -26,7 +30,6 @@ a:visited {
     line-height: 6.6vmin;
     height: 100vh;
     max-width: 100vw;
-    background-color: #24071b;
     color: #fff;
     font-family: 'Ubuntu Mono', monospace;
     align-items: center;
@@ -34,6 +37,10 @@ a:visited {
     display: flex;
     padding: 3vw 4.5vw;
     scroll-snap-align: start;
+}
+
+.light {
+    background-color: #301327;
 }
 
 .commands {
@@ -125,11 +132,11 @@ a:visited {
 
 .arrow {
     color: rgba(255, 255, 255, 0.273);
-    font-size: 80px;
+    font-size: 30px;
     position: fixed;
     z-index: 99;
-    bottom: 4px;
-    right: 30px;
+    bottom: -50vw;
+    right: 50vw;
     animation: down 2s infinite;
     cursor: pointer;
 }
