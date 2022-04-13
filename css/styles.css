@@ -9,6 +9,12 @@
     scroll-behavior: smooth;
 }
 
+a,
+a:visited {
+    text-decoration: underline;
+    color: #22A5F1;
+}
+
 .slide {
     font-size: 6.5vmin;
     line-height: 6.6vmin;
@@ -66,12 +72,6 @@
     100% {
         background: #222
     }
-}
-
-a,
-a:visited {
-    text-decoration: underline;
-    color: #22A5F1;
 }
 
 .social a,
